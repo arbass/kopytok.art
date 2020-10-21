@@ -26,8 +26,8 @@ if (isset($_SERVER['HTTP_ORIGIN'])) {
 	$botToken = "1139508413:AAGUXypuWl0vxBnLEVToVVI06VyndOsz4Qk";
 	$website = "https://api.telegram.org/bot".$botToken;
 
-$chatId = "43732660"; //test
-// $chatId = "63658792"; //prod
+// $chatId = "43732660"; //test
+$chatId = "63658792"; //prod
 
 //for get request from bot
 // $content = file_get_contents("php://input");
