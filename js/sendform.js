@@ -1,7 +1,7 @@
 $(function(){
 	$('#email-form').submit(function(e){
 		$.ajax({
-			url:'https://projects.fedyunin.com.ua/telegram.php',
+			url:'https://kopytok.art/ajax/telegram.php',
 			method:'POST',
 			cacshe: false,
 			data: $(this).serialize(),
