@@ -64,5 +64,5 @@ if(isset($_POST['name']) && trim($_POST['name']) !== '' && isset($_POST['Phone']
 
 
 function send_message($message_text){
-	file_get_contents( $GLOBALS["website"]."/sendmessage?chat_id=".$GLOBALS["chatId"]."&text=".urlencode($message_text)."&parse_mode=HTML&disable_web_page_preview=true&".http_build_query($GLOBALS["postfields"]));
+	file_get_contents( $GLOBALS["website"]."/sendmessage?chat_id=".$GLOBALS["chatId"]."&text=".urlencode($message_text)."&parse_mode=HTML&disable_web_page_preview=true");
 }
